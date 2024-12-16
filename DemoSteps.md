@@ -15,21 +15,21 @@ Introduce yourself and what you are going to talk about.
 
 ## The problem
 
-We are going to show a fizzbuzz application that has bad tests and take them through a somwhat contrived example of a bug making it's way to production due to how weak the tests are.
+We are going to show a fizzbuzz application that has bad tests and take them through a somewhat contrived example of a bug making it's way to production due to how weak the tests are.
 
 ### Introduction to the problem
 
 Fist introduce the what you are going to do.
 
-**"Before we go into what styker is and how it works I'm first going to show how it can help you. I am paart of the FizzBuzz org, helping provide FizzBuzz at scale for our customers. As a new developer I am helping to rewite our core product, the FizzBuzz Generator"**
+**"Before we go into what Styker is and how it works I'm first going to show how it can help you. I am a part of the FizzBuzz org, helping provide FizzBuzz at scale for our customers. As a new developer I am helping to rewrite our core product, the FizzBuzz Generator"**
 
 Go over the FIzzBuzz code showing the code and that it has tests. Explain fizzbuzz if needed
 
 ### The first fix
 
-**"This code has been writen and passed up to as a senior developer in PR, I have notice an issue and in code coverage and have come to check**
+**"This code has been written and passed up to as a senior developer in PR, I have notice an issue and in code coverage and have come to check**
 
-Show the code coverage if you are able, Visual Stuido Live Unit test can be a good way of doing it. Fix the error with Fizz not being correct and add an extra test to cover the untested line.
+Show the code coverage if you are able, Visual Studio Live Unit test can be a good way of doing it. Fix the error with Fizz not being correct and add an extra test to cover the untested line.
 
 ```cs
         public string GetFizzBuzz(int number)
@@ -63,13 +63,13 @@ Show the code coverage if you are able, Visual Stuido Live Unit test can be a go
         }
 ```
 
-Show the console app ruinning to show it is working.
+Show the console app running to show it is working.
 
 ### The problem
 
 Next rename the FizzBuzz namespace using a renaming tool but accidentally change the fizzbuzz string.
 In VS code this can be done with right click -> change all occurrences -> "FizzBuzOrg"
-In Visual Studio this can be done with right click ->  rename -> "FizzBuzzOrg" and don't untick the options.
+In Visual Studio this can be done with right click ->  rename -> "FizzBuzzOrg" and don't un-tick the options.
 
 ```cs
 namespace FizzBuzzOrg
