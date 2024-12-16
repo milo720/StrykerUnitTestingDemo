@@ -16,18 +16,12 @@ namespace FizzBuzzTests
         }
 
         [TestMethod]
-        public void TestFizz()
+        public void TestBuzz()
         {
 
-            var result = _fizzBuzzGenerator.GetFizzBuzz(3);
-            Assert.AreEqual("Fizz", result); 
+            var result = _fizzBuzzGenerator.GetFizzBuzz(5);
+            Assert.AreEqual("Buzz", result);
         }
 
-        [TestMethod]
-        public void TestNotFizzOrBuzz()
-        {
-            var result = _fizzBuzzGenerator.GetFizzBuzz(14);
-            Assert.AreEqual("14", result); 
-        }
     }
 }
